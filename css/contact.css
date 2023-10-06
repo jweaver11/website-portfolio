@@ -14,3 +14,17 @@
     color: cyan;
     opacity: 80%;
 }
+
+.contact-item {
+    display: block;
+}
+
+.contact-method {
+    font-size: 20px;
+    color: cyan;
+    opacity: 80%;
+}
+
+.contact-link {
+    font-size: 20px;
+}

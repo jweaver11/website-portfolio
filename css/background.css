@@ -3,23 +3,10 @@ html {
 	color: white;
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	line-height: 1.6;
+	scroll-behavior: smooth;
 }
 
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-
-@keyframes gradient-animation {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+a {
+    color: cyan;
+	opacity: 80%;
 }
