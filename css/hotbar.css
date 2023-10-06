@@ -1,0 +1,48 @@
+.hotbar {    /* Class for hotbar styling at top of page */
+    margin-left: 60px;  /* Sets padding to page */
+    color: white;   /* Text color to white */
+    word-spacing: 8px;
+    font-family: inherit;   
+}
+
+/* Styling for elements with the class "name" */
+.name {
+    width: auto;             /* Set a fixed width of 560 pixels */
+    border-radius: 1rem;      /* Apply a border radius of 1rem (16 pixels) for rounded corners */
+    display: inline-flex;     /* Display the element as an inline-flex container */
+    overflow: hidden;         /* Hide any overflowing content within the element */
+    font-size: 36px;          /* Set the font size to 26 pixels */
+    color: cyan;
+    opacity: 80%;
+    border: none;
+    margin-top: 40px;
+}
+
+/* Styling for elements with the class "button-container" */
+.button-container {
+    position: absolute;        /* Position the element absolutely within its containing element */
+    right: 0;                 /* Align the element to the right edge of its containing element */
+    display: inline-flex;     /* Display the element as an inline-flex container */
+    overflow: hidden;         /* Hide any overflowing content within the element */
+    gap: 20px;                /* Add a gap of 20 pixels between child elements */
+    margin-right: 60px;    /* Inherit the right margin from the parent element (not recommended) */
+    margin-top: 40px;
+}
+
+.hotbar-button {
+    height: auto;   /* Auto sets height and width of buttons*/
+    width: auto;
+    background: none;   /* Gets rid of backgrounds to button */
+    color: cyan; /* Inherits color from .hotbar */
+    border: none;   /* Disables border */
+    font-size: 18px;    /* Sets font size*/
+    align-items: center;    /* Puts text in buttons to center of button */
+    cursor: pointer;    /* Makes cursor change to selection hand so user can see it is clickable */
+    font-family: inherit;   /* Sets font of buttons */
+    border-radius: 1rem;    /* Makes buttons round */
+}
+
+/* Changes text color when hovering over button */
+.hotbar-button:hover {
+    color: lightblue;
+}

@@ -1,0 +1,22 @@
+.about-title {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: cyan;
+    opacity: 80%;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    margin: 0 auto;
+ }
+
+.about-content {
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1.5;
+}
