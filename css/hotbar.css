@@ -46,3 +46,13 @@
 .hotbar-button:hover {
     color: lightblue;
 }
+
+.short-intro-container {
+    margin-left: 60px;
+}
+
+.short-intro-content {
+    font-size: 24px;
+    display: block;
+    line-height: 1.6;
+}
