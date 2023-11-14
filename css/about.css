@@ -1,23 +1,26 @@
+.about-me-wrapper {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-right: 80px;
+    width: auto;
+}
+
+.about-container { 
+    width: 600px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+ }
+
+
 .about-title {
     font-size: 30px;
-    display: flex;
-    justify-content: left;
-    margin-left: 280px;
-    margin-top: 50px;
-    margin-bottom: 10px;
     font-weight: bold;
 }
 
-.about-container {
-    display: flex;
-    justify-content: left;
-    width: 600px;
-    margin: 0 auto;
-    margin-left: 60px;
- }
-
 .about-content {
     font-size: 20px;
-    justify-content: center;
     line-height: 1.5;
+    text-align: justify;
 }
