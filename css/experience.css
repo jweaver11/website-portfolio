@@ -16,6 +16,10 @@
 /* Container for each individual job in experience section */
 .job-container {
     margin-bottom: 30px;
+    outline: solid red;
+    border-radius: 1rem;
+    cursor: pointer;
+    overflow: hidden;
 }
 
 /* Each item inside the job container */
@@ -51,11 +55,18 @@
 }
 
 /* Each bulletpoint */
-.bp {
-    display: block;
+.hidden-bp {
+    display: none;
     text-align: justify;
     font-size: 16px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 8px;
+    z-index: 1;
 }
+
+/* When job container hovered, change hidden-bp */
+.job-container:hover .hidden-bp {
+    display: block;
+}
+
