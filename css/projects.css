@@ -1,5 +1,62 @@
 .project-wrapper {
     display: flex;
+    margin-top: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: auto;
+}
+
+.exp-container {
+    overflow: hidden;
+    margin-right: auto;
+    text-align: center;
+    width: 550px;
+    display: block;
+}
+
+.exp-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.job-container {
+    margin-bottom: 16px;
+}
+
+.exp-item {
+    font-size: 16px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.job-name {
+    overflow: hidden;
+    text-align: left;
+    margin-right: auto;
+    color: rgb(53, 232, 200);
+    font-weight: bold;
+}
+
+.job-date {
+    opacity: 80%;
+    text-align: right;
+    margin-left: auto;
+}
+
+.job-company {
+    overflow: hidden;
+    text-align: left;
+    margin-right: auto;
+    font-style: italic;
+}
+
+.bp {
+    display: block;
+    text-align: justify;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .project-container {
