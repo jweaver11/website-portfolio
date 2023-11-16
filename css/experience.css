@@ -1,0 +1,59 @@
+.exp-container {
+    overflow: hidden;
+    margin-right: auto;
+    text-align: center;
+    width: 550px;
+    display: block;
+}
+
+/* Title that says experience */
+.exp-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Container for each individual job in experience section */
+.job-container {
+    margin-bottom: 16px;
+}
+
+/* Each item inside the job container */
+.exp-item {
+    font-size: 16px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Name of job */
+.job-name {
+    overflow: hidden;
+    text-align: left;
+    margin-right: auto;
+    color: rgb(53, 232, 200);
+    font-weight: bold;
+}
+
+/* Date of job */
+.job-date {
+    opacity: 80%;
+    text-align: right;
+    margin-left: auto;
+}
+
+/* Name of company */
+.job-company {
+    overflow: hidden;
+    text-align: left;
+    margin-right: auto;
+    font-style: italic;
+}
+
+/* Each bulletpoint */
+.bp {
+    display: block;
+    text-align: justify;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
