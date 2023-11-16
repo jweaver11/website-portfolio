@@ -1,6 +1,6 @@
 .intro-wrapper {
     display: block;
-    margin-top: 300px;
+    margin-top: 320px;
     margin-left: 300px;
     margin-right: 300px;
     width: auto;
@@ -10,6 +10,7 @@
     width: 550px;
     overflow: hidden;
     display: block;
+    margin-bottom: 200px;
  }
 
 .intro-greeting {
