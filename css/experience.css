@@ -14,12 +14,12 @@
 
 /* Container for each individual job in experience section */
 .job-container {
-    margin-bottom: 16px;
+    margin-bottom: 30px;
 }
 
 /* Each item inside the job container */
 .exp-item {
-    font-size: 16px;
+    font-size: 20px;
     display: flex;
     margin-left: 10px;
     margin-right: 10px;
@@ -53,7 +53,8 @@
 .bp {
     display: block;
     text-align: justify;
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 8px;
 }
