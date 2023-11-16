@@ -1,3 +1,7 @@
+.project-wrapper {
+    display: flex;
+}
+
 .project-container {
     display: block;
     justify-content: left;
