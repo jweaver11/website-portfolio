@@ -3,11 +3,13 @@
 <html>
 
 <head>
-    <!-- <meta charset="UTF-8"> -->
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Josh Weavers Website</title>
     <link rel="stylesheet" type="text/css" href="../css/hotbar.css"  /> <!-- Link to the CSS file -->
     <link rel="stylesheet" type="text/css" href="../css/background.css" />
-    <link rel="stylesheet" type="text/css" href="../css/portfolio.css" />
+    <link rel="stylesheet" type="text/css" href="../css/project.css" />
     <link rel="stylesheet" type="text/css" href="../css/about.css" />
     <link rel="stylesheet" type="text/css" href="../css/contact.css" />
     <link rel="stylesheet" type="text/css" href="../css/experience.css" />
@@ -16,38 +18,27 @@
 
 <body>
 
-    <!-- Hotbar button at top of the page-->
-    <div class="hotbar-wrapper">
-        <div class="name-container">
-            <div class="name"><span class="name-blue">J</span>oshua Weaver</div>
+    <!-- Big Name at top of page -->
+    <div id="home">
+        <div class="hotbar-wrapper">
+            <div class="name-container">
+                <div class="name">
+                    <span class="name-green">J</span>oshua Weaver
+                </div>
 
-            <!-- Short intro of career, name, and location under title hotbar -->
-            <div class="short-intro-container">  
+                <!-- Short intro of career, name, and location under title hotbar -->
                 <span class="short-intro-content">Software Developer</span>
                 <span class="short-intro-content">St. Louis, Missouri</span>
             </div>
+        
+            <!-- Navbar in top right of page -->
+            <div class="navbar-container">
+                <a href="#home"><span class="navbar-buttons">Home</span></a>
+                <a href="#about"><span class="navbar-buttons">About</span></a>
+                <a href="#projects"><span class="navbar-buttons">Projects</span></a>
+                <a href="#contact"><span class="navbar-buttons">Contact</span></a>  
+            </div>
         </div>  
-
-        <!-- Contact section -->
-        <div class="contact-container">
-            <span class="contact-title">Contact</span>
-
-            <div class="contact-item">
-                <span class="contact-method">Email: </span>
-                <span class="contact-link">JoshuaTWeaver2000@gmail.com</span>
-            </div>
-
-            <div class="contact-item">
-                <span class="contact-method">Phone: </span>
-                <span class="contact-link">1 (314)-412-3099</span>
-            </div>
-
-            <!-- <div class="contact-item">
-                <span class="contact-method">Linkedin: </span>
-                <span class="contact-link"><a href="https://www.linkedin.com/in/josh-weaver-4b12aa238/">Link</a></span> 
-            </div>
-            -->
-        </div>
     </div>
 
 
@@ -56,11 +47,10 @@
         <!-- Detailed about section -->
         <div class="about-container">
 
-            <span class="about-title">About Me</span>
-            <div class="about-content">My name is Joshua Weaver and I am a recent graduate from Westminster College, 
-                with a Bachelor's in Computer Science and a minor in Cybersecurity. I am looking for any career in software development. 
-                My background has made me a hard-working team player that is always looking to learn and improve. I handle criticism well, 
-                and can work independently or in a team environment.
+            <span class="about-title">HELLO THERE,</span>
+            <span class="about-name">I'm Josh.</span>
+            <div class="about-content">I'm a recent graduate from Westminster College looking 
+                for a career in software development!
             </div>
         </div>
 
@@ -83,7 +73,7 @@
 
                 <span class="bp">- Designed and developed an SSH app for users to access and learn about the company</span>
                 <span class="bp">- Studied technical and business application skills under a lead software engineer</span>
-                <span class="bp">- Increased the company’s reach to users on Linux</span>
+                <span class="bp">- Increased the company reach to users on Linux</span>
             
             </div>
 
@@ -107,26 +97,50 @@
     </div>
     
 
-    <!-- Detailed portfolio section-->
-    <div class="portfolio-container">
-        <span class="portfolio-title">Portfolio</span>
+    <!-- Detailed project section-->
+    <div id="projects">
+        <div class="project-container">
+            <span class="project-title">Project</span>
 
-        <span class="portfolio-name">Account Creation Application - </span>
-        <span class="portfolio-link"><a href="https://github.com/jweaver11/account-creator">Github</a></span>
-        <div class="portfolio-summary">(Work in Progress) full stack project that lets users create an account with username and password</div>
-    
-        <span class="portfolio-name">Portfolio Website - </span>
-        <span class="portfolio-link"><a href="https://github.com/jweaver11/Website-Portfolio">Github</a></span>
-        <div class="portfolio-summary">The website created to introduce myself and the projects I have completed</div>
-    
-        <span class="portfolio-name">SSH - </span>
-        <span class="portfolio-link"><a href="https://github.com/jweaver11/DAB-SSH">Github</a></span>
-        <div class="portfolio-summary">A Text-based User Interface application made for Digital Art Brokers</div>
-    
-        <span class="portfolio-name">Github - </span>
-        <span class="portfolio-link"><a href="https://github.com/jweaver11?tab=repositories">Github</a></span>
-        <div class="portfolio-summary">Code repositories for all my projects</div>
-    </div> 
+            <span class="project-name">Account Creation Application - </span>
+            <span class="project-link"><a href="https://github.com/jweaver11/account-creator">Github</a></span>
+            <div class="project-summary">(Work in Progress) full stack project that lets users create an account with username and password</div>
+        
+            <span class="project-name">Project Website - </span>
+            <span class="project-link"><a href="https://github.com/jweaver11/Website-Project">Github</a></span>
+            <div class="project-summary">The website created to introduce myself and the projects I have completed</div>
+        
+            <span class="project-name">SSH - </span>
+            <span class="project-link"><a href="https://github.com/jweaver11/DAB-SSH">Github</a></span>
+            <div class="project-summary">A Text-based User Interface application made for Digital Art Brokers</div>
+        
+            <span class="project-name">Github - </span>
+            <span class="project-link"><a href="https://github.com/jweaver11?tab=repositories">Github</a></span>
+            <div class="project-summary">Code repositories for all my projects</div>
+        </div> 
+    </div>
+
+    <!-- Contact section -->
+    <div id="contact">
+        <div class="contact-container">
+            <span class="contact-title">Contact</span>
+
+            <div class="contact-item">
+                <span class="contact-method">Email: </span>
+                <span class="contact-link">JoshuaTWeaver2000@gmail.com</span>
+            </div>
+
+            <div class="contact-item">
+                <span class="contact-method">Phone: </span>
+                <span class="contact-link">1 (314)-412-3099</span>
+            </div>
+
+            <!-- <div class="contact-item">
+                <span class="contact-method">Linkedin: </span>
+                <span class="contact-link"><a href="https://www.linkedin.com/in/josh-weaver-4b12aa238/">Link</a></span> 
+            </div>
+            -->
+    </div>
     
 </body>
 </html>

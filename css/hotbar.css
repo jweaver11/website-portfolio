@@ -1,13 +1,14 @@
 .hotbar-wrapper {
     display: flex;
     margin-top: 80px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
     width: auto;
 }
 
 .name-container {    /* Class for hotbar styling at top of page */
-    overflow: hidden;   
+    overflow: hidden; 
+    display: block;  
 }
 
 /* Styling for elements with the class "name" */
@@ -17,17 +18,51 @@
     font-weight: bold;
 }
 
-.name-blue {
+.name-green {
     color: cyan;
     opacity: 90%;
-}
-
-.short-intro-container {
-    overflow: hidden;
 }
 
 .short-intro-content {
     font-size: 24px;
     display: block;
     line-height: 1.6;
+}
+
+.navbar-container {
+    overflow: hidden;
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.navbar-buttons {
+    font-size: 20px;
+    overflow: hidden;
+    display: inline-flex;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.navbar-buttons:hover {
+    color: gray;
+}
+
+/* Button Scroll behavior */
+#home {
+    overflow: hidden;
+}
+
+#about {
+    margin-top: 80px;
+}
+
+#projects {
+    margin-top: 80px;
+}
+
+#contact {
+    margin-top: 80px;
 }
