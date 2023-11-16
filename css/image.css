@@ -1,11 +1,4 @@
-.image-container {
-    display: flex;
-    margin-top: 100px;
-    margin-left: 330px;
-    border-radius: 50%;
-    border: solid red;
-}
-
+/* images styling */
 .image {
     display: flex;
     margin-top: 100px;

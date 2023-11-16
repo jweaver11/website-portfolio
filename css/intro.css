@@ -1,18 +1,15 @@
-.intro-wrapper {
-    display: block;
+/* container around the intro section */
+.intro-container { 
     margin-top: 140px;
     margin-left: 300px;
     margin-right: 300px;
-    width: auto;
-}
-
-.intro-container { 
     width: 550px;
     overflow: hidden;
     display: block;
     margin-bottom: 200px;
  }
 
+ /* Short Hey there greeting */
 .intro-greeting {
     font-size: 30px;
     font-weight: bold;
@@ -20,11 +17,13 @@
     display: block;
 }
 
+/* Short name introduction */
 .intro-name {
-    font-size: 48px;
+    font-size: 60px;
     font-weight: bold;
 }
 
+/* Short intro statement */
 .intro-statement {
     font-size: 20px;
     line-height: 1.5;
