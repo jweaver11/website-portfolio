@@ -1,0 +1,17 @@
+.image-container {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 330px;
+    border-radius: 50%;
+    border: solid red;
+}
+
+.image {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 330px;
+    width: 10%;
+    height: auto;
+    border: solid rgb(53, 232, 200);
+    border-radius: 50%;
+}
