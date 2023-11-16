@@ -1,31 +1,30 @@
-.about-me-wrapper {
-    display: flex;
-    margin-top: 150px;
-    margin-left: 80px;
-    margin-right: 80px;
+.intro-wrapper {
+    display: block;
+    margin-top: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
     width: auto;
 }
 
-.about-container { 
+.intro-container { 
     width: 550px;
     overflow: hidden;
     display: block;
-    text-align: center;
  }
 
-.about-title {
+.intro-greeting {
     font-size: 30px;
     font-weight: bold;
     color: green;
     display: block;
 }
 
-.about-name {
+.intro-name {
     font-size: 48px;
     font-weight: bold;
 }
-.about-content {
+
+.intro-statement {
     font-size: 20px;
     line-height: 1.5;
-    text-align: justify;
 }
