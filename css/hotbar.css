@@ -19,8 +19,7 @@
 }
 
 .name-green {
-    color: cyan;
-    opacity: 90%;
+    color: rgb(53, 232, 200);
 }
 
 .short-intro-content {
@@ -44,10 +43,11 @@
     border: none;
     outline: none;
     cursor: pointer;
+    color: white;
 }
 
 .navbar-buttons:hover {
-    color: gray;
+    color: lightgray;
 }
 
 /* Button Scroll behavior */

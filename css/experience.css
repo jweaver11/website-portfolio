@@ -26,8 +26,8 @@
     overflow: hidden;
     text-align: left;
     margin-right: auto;
-    color: cyan;
-    opacity: 90%;
+    color: rgb(53, 232, 200);
+    font-weight: bold;
 }
 
 .job-date {
