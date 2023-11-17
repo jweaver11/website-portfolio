@@ -1,8 +1,8 @@
 /* container around the intro section */
 .intro-container { 
     margin-top: 100px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 450px;
+    margin-right: auto;
     width: 550px;
     overflow: hidden;
     display: block;
