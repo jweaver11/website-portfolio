@@ -1,7 +1,7 @@
 /* container for contact section */
 .contact-container {
     overflow: hidden;
-    margin-left: auto;
+    margin-left: 450px;
     margin-right: auto;
     text-align: left;
     width: 550px;

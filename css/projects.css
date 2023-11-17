@@ -1,9 +1,10 @@
 /* Wrapper for project section */
 .project-wrapper {
-    display: flex;
-    margin-top: 80px;
-    margin-left: 300px;
-    margin-right: 300px;
+    display: block;
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 200px;
     width: auto;
 }
 
@@ -11,14 +12,14 @@
 .project-container {
     display: block;
     width: 550px;
-    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Title that says project */
 .project-title {
     font-size: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin-bottom: 10px;
     font-weight: bold;
 }
