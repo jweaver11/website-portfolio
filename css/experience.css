@@ -1,33 +1,50 @@
+/* Wrapper for experience section */
+.exp-wrapper {
+    display: block;
+    margin-top: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: auto;
+}
+
 /* container for experience section */
 .exp-container {
     overflow: hidden;
-    margin-right: auto;
     text-align: center;
-    width: 550px;
     display: block;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.exp-title-container {
+    display: flex;
+    margin-left: 150px;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 /* Title that says experience */
 .exp-title {
-    font-size: 30px;
+    font-size: 34px;
     font-weight: bold;
+    text-align: left;
+    display: block;
+}
+
+.job-wrapper {
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 50px;
 }
 
 /* Container for each individual job in experience section */
 .job-container {
-    margin-bottom: 30px;
-    outline: solid red;
-    border-radius: 1rem;
-    cursor: pointer;
     overflow: hidden;
-}
-
-/* Each item inside the job container */
-.exp-item {
-    font-size: 20px;
-    display: flex;
-    margin-left: 10px;
-    margin-right: 10px;
+    display: block;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 10px;
 }
 
 /* Name of job */
@@ -35,15 +52,11 @@
     overflow: hidden;
     text-align: left;
     margin-right: auto;
-    color: rgb(53, 232, 200);
     font-weight: bold;
-}
-
-/* Date of job */
-.job-date {
-    opacity: 80%;
-    text-align: right;
-    margin-left: auto;
+    font-size: 22px;
+    margin-left: 10px;
+    display: block;
+    color: rgb(53, 232, 200);
 }
 
 /* Name of company */
@@ -52,11 +65,35 @@
     text-align: left;
     margin-right: auto;
     font-style: italic;
+    margin-left: 10px;
+    margin-bottom: 4px;
+    display: block;
+    font-size: 18px;
+    color: rgb(202, 202, 202);
+}
+
+/* Date of job */
+.job-date {
+    opacity: 80%;
+    font-size: 14px;
+    margin-left: 10px;
+    display: block;
+    text-align: left;
+    color: rgb(202, 202, 202);
+}
+
+.bp-container {
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-top: 10px;
+    width: 600px;
+    border-bottom: 1px solid rgb(202, 202, 202);
 }
 
 /* Each bulletpoint */
-.hidden-bp {
-    display: none;
+.bp {
+    display: block;
     text-align: justify;
     font-size: 16px;
     margin-left: 10px;
@@ -65,8 +102,8 @@
     z-index: 1;
 }
 
-/* When job container hovered, change hidden-bp */
+/*When job container hovered, change hidden-bp 
 .job-container:hover .hidden-bp {
     display: block;
 }
-
+*/
