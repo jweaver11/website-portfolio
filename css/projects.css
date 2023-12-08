@@ -1,39 +1,45 @@
 /* Wrapper for project section */
 .project-wrapper {
     display: block;
-    margin-top: 100px;
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 200px;
-    width: auto;
+    width: 1100px;
+    height: auto;
 }
 
 /* Title that says project */
 .project-title {
     font-size: 34px;
     display: block;
-    justify-content: left;
     font-weight: bold;
+    text-align: center;
 }
 
-/* Container for all projects*/
-.project-container {
-    display: block;
-    width: 1100px;
-    height: auto;  
-    cursor: auto;
-    overflow: hidden;
-}
-
-.project-box {
+.project-box-1 {
     display: flex;
-    border: solid blue;
+    border-radius: 1rem;
+    max-width: 1080px;
+    height: 400px;
+    padding: 6px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    border: solid #374164;
+    background: linear-gradient(to top, rgb(33, 36, 54), #374164);
+}
+
+
+.project-box-2 {
+    display: flex;
     border-radius: 1rem;
     max-width: 1080px;
     height: 400px;
     padding: 6px;
     padding-right: 4px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
+    border: solid #5f3764;
+    background: linear-gradient(to top, rgb(54, 33, 52), #5f3764);
 }
 
 .project-text {
@@ -76,15 +82,14 @@
 
 /* Link to each projects github */
 .project-link {
-    font-size: 16px;
+    font-size: 18px;
     display: inline-block;
+    text-align: center;
     cursor: pointer;
     overflow: hidden;
     margin-bottom: 4px;
-    text-decoration: underline;
     border-radius: 1rem;
     color: rgb(19, 26, 41);
-    background-color: rgb(202, 202, 202);
-    letter-spacing: 1px;
-    font-weight: bold;
+    background-color: rgb(232, 232, 232);
+    min-width: 130px;
 }
