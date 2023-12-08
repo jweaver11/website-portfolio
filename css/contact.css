@@ -1,10 +1,10 @@
 /* container for contact section */
 .contact-container {
     overflow: hidden;
-    margin-left: 450px;
+    margin-left: auto;
     margin-right: auto;
-    text-align: left;
-    width: 550px;
+    text-align: center;
+    width: 1100px;
     margin-bottom: 200px;
 }
 
@@ -12,14 +12,13 @@
 .contact-title {
     font-size: 30px;
     font-weight: bold;
-    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* each line in the contact section */
 .contact-item {
     display: block;
-    text-align: justify;
-    margin-left: 10px;
     margin-bottom: 2px;
 }
 
