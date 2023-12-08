@@ -21,9 +21,9 @@
     display: flex;
     border-radius: 1rem;
     max-width: 1080px;
-    height: 400px;
+    height: 450px;
     padding: 6px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     margin-top: 80px;
     border: solid #374164;
     background: linear-gradient(to top, rgb(33, 36, 54), #374164);
@@ -34,10 +34,10 @@
     display: flex;
     border-radius: 1rem;
     max-width: 1080px;
-    height: 400px;
+    height: 450px;
     padding: 6px;
     padding-right: 4px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     border: solid #5f3764;
     background: linear-gradient(to top, rgb(54, 33, 52), #5f3764);
 }
