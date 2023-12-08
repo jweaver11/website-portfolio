@@ -21,8 +21,8 @@
     display: flex;
     border-radius: 1rem;
     max-width: 1080px;
-    height: 450px;
-    padding: 6px;
+    height: 500px;
+    padding: 10px;
     margin-bottom: 200px;
     margin-top: 80px;
     border: solid #374164;
@@ -35,7 +35,7 @@
     border-radius: 1rem;
     max-width: 1080px;
     height: 450px;
-    padding: 6px;
+    padding: 10px;
     padding-right: 4px;
     margin-bottom: 200px;
     border: solid #5f3764;
@@ -56,10 +56,12 @@
 .project-image {
     display: flex;
     margin-left: auto;
-    margin-right: auto;
-    max-width: 520px;
+    width: 520px;
     height: auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
     border-radius: 1rem;
+    margin-right: 6px;
 }
 
 
