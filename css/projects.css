@@ -45,7 +45,7 @@
 .project-text {
     margin-right: auto;
     text-align: justify;
-    max-width: 520px;
+    max-width: 440px;
     height: auto;
     margin-top: auto;
     display: block;
@@ -56,7 +56,7 @@
 .project-image {
     display: flex;
     margin-left: auto;
-    width: 520px;
+    width: 600px;
     height: auto;
     margin-top: 6px;
     margin-bottom: 6px;
