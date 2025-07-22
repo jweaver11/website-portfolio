@@ -1,17 +1,18 @@
 /* Wrapper for project section */
 .project-wrapper {
     display: block;
-    margin-top: 200px;
+    margin-top: 12vh;            /* Changed from 200px */
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 200px;
-    width: 1100px;
+    margin-bottom: 12vh;         /* Changed from 200px */
+    width: 90%;                  /* Changed from 1100px */
+    max-width: 1100px;           /* Maintains original max width */
     height: auto;
 }
 
 /* Title that says project */
 .project-title {
-    font-size: 34px;
+    font-size: 2.125rem;         /* Changed from 34px */
     display: block;
     font-weight: bold;
     text-align: center;
@@ -21,78 +22,85 @@
     display: flex;
     border-radius: 1rem;
     max-width: 1080px;
-    height: 500px;
-    padding: 10px;
-    margin-bottom: 200px;
-    margin-top: 80px;
+    height: auto;                /* Changed from 500px for better responsiveness */
+    min-height: 30vh;            /* Minimum height for consistency */
+    padding: 1vw;                /* Changed from 10px */
+    margin-bottom: 12vh;         /* Changed from 200px */
+    margin-top: 5vh;             /* Changed from 80px */
     border: solid #374164;
     background: linear-gradient(to top, rgb(33, 36, 54), #374164);
+    flex-wrap: wrap;             /* Allow wrapping on smaller screens */
 }
-
 
 .project-box-2 {
     display: flex;
     border-radius: 1rem;
     max-width: 1080px;
-    height: 450px;
-    padding: 10px;
-    padding-right: 4px;
-    margin-bottom: 200px;
+    height: auto;                /* Changed from 450px for better responsiveness */
+    min-height: 28vh;            /* Minimum height for consistency */
+    padding: 1vw;                /* Changed from 10px */
+    padding-right: 0.4vw;        /* Changed from 4px */
+    margin-bottom: 12vh;         /* Changed from 200px */
     border: solid #5f3764;
     background: linear-gradient(to top, rgb(54, 33, 52), #5f3764);
+    flex-wrap: wrap;             /* Allow wrapping on smaller screens */
 }
 
 .project-text {
     margin-right: auto;
     text-align: justify;
     max-width: 440px;
+    width: 100%;                 /* Full width on small screens */
+    min-width: 300px;            /* Minimum width for readability */
     height: auto;
     margin-top: auto;
     display: block;
-    margin-bottom: 10px;
-    padding-left: 4px;
+    margin-bottom: 1vh;          /* Changed from 10px */
+    padding-left: 0.4vw;         /* Changed from 4px */
 }
 
 .project-image {
     display: flex;
     margin-left: auto;
-    width: 600px;
+    width: 55%;                  /* Changed from 600px - responsive width */
+    max-width: 600px;            /* Maintains original max width */
+    min-width: 300px;            /* Minimum width for small screens */
     height: auto;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    margin-top: 0.6vh;           /* Changed from 6px */
+    margin-bottom: 0.6vh;        /* Changed from 6px */
     border-radius: 1rem;
-    margin-right: 6px;
+    margin-right: 0.6vw;         /* Changed from 6px */
 }
 
 
 /* Name of each individual project */
 .project-name {
-    font-size: 26px;
+    font-size: 1.625rem;         /* Changed from 26px */
     color: rgb(53, 232, 200);
     display: block;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 1vh;          /* Changed from 10px */
 }
 
 /* short sumary of each project */
 .project-summary {
-    font-size: 16px;
+    font-size: 1.125rem;         /* Changed from 18px (removing duplicate 16px) */
     line-height: 1.5;
-    margin-bottom: 30px;
-    font-size: 18px;
+    margin-bottom: 2vh;          /* Changed from 30px */
     color: rgb(202, 202, 202);
 }
 
 /* Link to each projects github */
 .project-link {
-    font-size: 18px;
+    font-size: 1.125rem;         /* Changed from 18px */
     display: inline-block;
     text-align: center;
     cursor: pointer;
     overflow: hidden;
-    margin-bottom: 4px;
+    margin-bottom: 0.4vh;        /* Changed from 4px */
     border-radius: 1rem;
     color: rgb(19, 26, 41);
     background-color: rgb(232, 232, 232);
     min-width: 130px;
+    padding: 0.5em 1em;          /* Added padding for better click area */
 }

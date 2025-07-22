@@ -1,12 +1,12 @@
 html {
-	background-color: rgb(19, 26, 41);
-	color: white;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	line-height: 1.6;
-	scroll-behavior: smooth;
+    background-color: rgb(19, 26, 41);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
 }
 
 a {
-	color: white;
-	cursor: default;
+    color: white;
+    cursor: default;
 }

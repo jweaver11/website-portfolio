@@ -4,13 +4,14 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 1100px;
-    margin-bottom: 200px;
+    width: 90%;           /* Changed from 1100px to 90% of parent */
+    max-width: 1100px;    /* Keeps a max width for large screens */
+    margin-bottom: 10vh;  /* Changed from 200px to 10% of viewport height */
 }
 
 /* title that says contact */
 .contact-title {
-    font-size: 30px;
+    font-size: 2.2rem;    /* Responsive font size */
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
@@ -19,16 +20,16 @@
 /* each line in the contact section */
 .contact-item {
     display: block;
-    margin-bottom: 2px;
+    margin-bottom: 0.5em; /* Responsive vertical spacing */
 }
 
 /* The method by contact (email, phone, etc) */
 .contact-method {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: rgb(53, 232, 200);
 }
 
 /* The link to contact me */
 .contact-link {
-    font-size: 20px;
+    font-size: 1.25rem;
 }

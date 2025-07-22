@@ -1,19 +1,19 @@
 /* Wrapper for experience section */
 .exp-wrapper {
     display: block;
-    margin-top: 80px;
+    margin-top: 6vh;           /* Changed from 80px */
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     overflow: hidden;
-    text-align: center;
-    width: 1100px;
+    width: 90%;                /* Changed from 1100px */
+    max-width: 1100px;         /* Keeps layout on large screens */
     height: auto;
 }
 
 /* Title that says experience */
 .exp-title {
-    font-size: 34px;
+    font-size: 2.5rem;         /* Changed from 34px */
     font-weight: bold;
     text-align: center;
     display: block;
@@ -22,9 +22,10 @@
 }
 
 .job-wrapper {
-    margin-top: 80px;
+    margin-top: 6vh;           /* Changed from 80px */
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 4vh;        /* Changed from 50px */
+    flex-wrap: wrap;           /* Allows wrapping on small screens */
 }
 
 /* Container for each individual job in experience section */
@@ -32,8 +33,8 @@
     overflow: hidden;
     display: block;
     margin-right: auto;
-    margin-bottom: 50px;
-    margin-top: 10px;
+    margin-bottom: 4vh;        /* Changed from 50px */
+    margin-top: 1vh;           /* Changed from 10px */
 }
 
 /* Name of job */
@@ -42,7 +43,7 @@
     text-align: left;
     margin-right: auto;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 2rem;           /* Changed from 26px */
     display: block;
     color: rgb(53, 232, 200);
 }
@@ -53,16 +54,16 @@
     text-align: left;
     margin-right: auto;
     font-style: italic;
-    margin-bottom: 4px;
+    margin-bottom: 0.5em;      /* Changed from 4px */
     display: block;
-    font-size: 18px;
+    font-size: 1.125rem;       /* Changed from 18px */
     color: rgb(202, 202, 202);
 }
 
 /* Date of job */
 .job-date {
     opacity: 80%;
-    font-size: 14px;
+    font-size: 0.9rem;         /* Changed from 14px */
     display: block;
     text-align: left;
     color: rgb(202, 202, 202);
@@ -72,8 +73,9 @@
     overflow: hidden;
     display: block;
     margin-left: auto;
-    margin-top: 10px;
-    width: 600px;
+    margin-top: 1vh;           /* Changed from 10px */
+    width: 90%;                /* Changed from 600px */
+    max-width: 600px;
     border-bottom: 1px solid rgb(202, 202, 202);
 }
 
@@ -81,15 +83,14 @@
 .bp {
     display: block;
     text-align: justify;
-    font-size: 16px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    font-size: 1rem;           /* Changed from 16px */
+    margin-left: 1vw;          /* Changed from 10px */
+    margin-right: 1vw;         /* Changed from 10px */
+    margin-bottom: 1vh;        /* Changed from 10px */
     z-index: 1;
 }
 
-/*When job container hovered, change hidden-bp 
+/*When job container hovered, change hidden-bp */
 .job-container:hover .hidden-bp {
     display: block;
 }
-*/
